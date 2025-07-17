@@ -229,3 +229,96 @@ a{
 .storeLocat {
     height: 70px;
 }
+
+/* Responsive for tablets (768px and below) */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .nav-logo img {
+        width: 40%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .menu {
+        width: 100%;
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    .innerItems {
+        margin-left: 20px;
+        width: 90%;
+    }
+
+    .innerItems img {
+        width: 50%;
+    }
+
+    .video video {
+        width: 90%;
+    }
+
+    .main-sec {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .parahs {
+        width: 90%;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    .adres input {
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .bur-img img {
+        width: 90%;
+        height: auto;
+    }
+}
+
+/* Responsive for mobile (480px and below) */
+@media (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .menu {
+        flex-direction: column;
+        font-size: 90%;
+    }
+
+    .nav-logo img {
+        width: 60%;
+    }
+
+    .innerItems img,
+    .btn img {
+        width: 100%;
+    }
+
+    .footer-one,
+    .footer-addresh {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-para {
+        width: 95%;
+        margin-top: 10px;
+    }
+
+    .adres p {
+        font-size: 18px;
+        text-align: center;
+    }
+}
